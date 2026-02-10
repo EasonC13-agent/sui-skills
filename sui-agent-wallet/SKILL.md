@@ -2,6 +2,8 @@
 
 Give your AI agent its own Sui wallet to interact with DApps and sign transactions.
 
+**GitHub:** <https://github.com/EasonC13-agent/sui-skills/tree/main/sui-agent-wallet>
+
 ## Architecture
 
 ```
@@ -242,3 +244,22 @@ Implemented Sui Wallet Standard features:
 When switching accounts or networks, the server notifies the Extension via WebSocket:
 - `accountChanged` - Account changed
 - `networkChanged` - Network changed
+
+## Related Skills
+
+This skill is part of the Sui development skill suite:
+
+| Skill | Description |
+|-------|-------------|
+| [sui-decompile](https://clawhub.ai/EasonC13/sui-decompile) | Fetch and read on-chain contract source code |
+| [sui-move](https://clawhub.ai/EasonC13/sui-move) | Write and deploy Move smart contracts |
+| [sui-coverage](https://clawhub.ai/EasonC13/sui-coverage) | Analyze test coverage with security analysis |
+| **sui-agent-wallet** | Build and test DApps frontend |
+
+**Workflow:**
+```
+sui-decompile → sui-move → sui-coverage → sui-agent-wallet
+    Study        Write      Test & Audit   Build DApps
+```
+
+All skills: <https://github.com/EasonC13-agent/sui-skills>

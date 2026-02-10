@@ -11,6 +11,8 @@ metadata:
 
 Fetch decompiled source code for on-chain Sui Move packages via block explorers.
 
+**GitHub:** <https://github.com/EasonC13-agent/sui-skills/tree/main/sui-decompile>
+
 ## Suivision (Preferred)
 
 May have official verified source code when available.
@@ -133,3 +135,22 @@ async function fetchContractSource(packageId) {
 - Suiscan shows Revela decompiled code
 - Decompiled code may not compile directly
 - **Close browser tabs after use!**
+
+## Related Skills
+
+This skill is part of the Sui development skill suite:
+
+| Skill | Description |
+|-------|-------------|
+| **sui-decompile** | Fetch and read on-chain contract source code |
+| [sui-move](https://clawhub.ai/EasonC13/sui-move) | Write and deploy Move smart contracts |
+| [sui-coverage](https://clawhub.ai/EasonC13/sui-coverage) | Analyze test coverage with security analysis |
+| [sui-agent-wallet](https://clawhub.ai/EasonC13/sui-agent-wallet) | Build and test DApps frontend |
+
+**Workflow:**
+```
+sui-decompile → sui-move → sui-coverage → sui-agent-wallet
+    Study        Write      Test & Audit   Build DApps
+```
+
+All skills: <https://github.com/EasonC13-agent/sui-skills>

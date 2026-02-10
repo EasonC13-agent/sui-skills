@@ -19,6 +19,8 @@ metadata:
 
 Comprehensive knowledge base for Sui blockchain and Move smart contract development.
 
+**GitHub:** <https://github.com/EasonC13-agent/sui-skills/tree/main/sui-move>
+
 ## Setup References
 
 Clone the official documentation:
@@ -196,15 +198,22 @@ When answering Sui/Move questions:
 
 ## Related Skills
 
-This skill works great with the Sui development skill suite:
+This skill is part of the Sui development skill suite:
 
-- **sui-decompile**: Fetch and read on-chain contract source code. Study how existing DeFi protocols work before writing your own.
-- **sui-coverage**: Analyze test coverage and find untested code paths. Ensure your contracts are well-tested before deployment.
+| Skill | Description |
+|-------|-------------|
+| [sui-decompile](https://clawhub.ai/EasonC13/sui-decompile) | Fetch and read on-chain contract source code |
+| **sui-move** | Write and deploy Move smart contracts |
+| [sui-coverage](https://clawhub.ai/EasonC13/sui-coverage) | Analyze test coverage with security analysis |
+| [sui-agent-wallet](https://clawhub.ai/EasonC13/sui-agent-wallet) | Build and test DApps frontend |
 
-**Typical workflow:**
-1. `sui-decompile` - Study existing contracts for patterns and best practices
-2. `sui-move` - Write your own contract
-3. `sui-coverage` - Ensure comprehensive test coverage
+**Workflow:**
+```
+sui-decompile → sui-move → sui-coverage → sui-agent-wallet
+    Study        Write      Test & Audit   Build DApps
+```
+
+All skills: <https://github.com/EasonC13-agent/sui-skills>
 
 ## Notes
 

@@ -13,6 +13,8 @@ metadata:
 
 Analyze and automatically improve Sui Move test coverage with security analysis.
 
+**GitHub:** <https://github.com/EasonC13-agent/sui-skills/tree/main/sui-coverage>
+
 ## Prerequisites
 
 ### Install Sui CLI
@@ -423,12 +425,19 @@ python3 $SKILL_DIR/analyze_source.py -m <module> -o coverage.md
 
 ## Related Skills
 
-This skill works great with the Sui development skill suite:
+This skill is part of the Sui development skill suite:
 
-- **sui-decompile**: Fetch and read on-chain contract source code. Decompile a protocol, then write tests to verify your understanding.
-- **sui-move**: Write and deploy Move smart contracts. Use coverage analysis to ensure your code is production-ready.
+| Skill | Description |
+|-------|-------------|
+| [sui-decompile](https://clawhub.ai/EasonC13/sui-decompile) | Fetch and read on-chain contract source code |
+| [sui-move](https://clawhub.ai/EasonC13/sui-move) | Write and deploy Move smart contracts |
+| **sui-coverage** | Analyze test coverage with security analysis |
+| [sui-agent-wallet](https://clawhub.ai/EasonC13/sui-agent-wallet) | Build and test DApps frontend |
 
-**Typical workflow:**
-1. `sui-decompile` - Study how a contract works
-2. `sui-move` - Write your own implementation
-3. `sui-coverage` - Achieve 100% test coverage with security analysis
+**Workflow:**
+```
+sui-decompile → sui-move → sui-coverage → sui-agent-wallet
+    Study        Write      Test & Audit   Build DApps
+```
+
+All skills: <https://github.com/EasonC13-agent/sui-skills>
