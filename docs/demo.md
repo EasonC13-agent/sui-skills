@@ -5,7 +5,7 @@ title: Demo Conversation
 
 <script setup>
 import { ref } from 'vue'
-const lang = ref('zh')
+const lang = ref('en')
 </script>
 
 # Demo: Building a DApp with SuiMate
