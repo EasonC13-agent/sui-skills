@@ -196,7 +196,7 @@ Overall:   91.65%
       <span class="name" style="color:#57f287">Eason</span>
       <span class="time">17:05</span>
     </div>
-    <div class="msg-content"><p>你可以指定 ID 然後生成簽名去測試吧？可以用 TS 去生成對應的簽名。請參考 <a href="https://github.com/EasonC13/wip-blackjack-app" target="_blank">https://github.com/EasonC13/wip-blackjack-app</a> 裡面的做法。</p></div>
+    <div class="msg-content"><p>你可以指定 ID 然後生成簽名去測試吧？可以用 TS 去生成對應的簽名。參考我們之前另一個專案的做法。</p></div>
   </div>
 </div>
 <div class="msg bot">
@@ -523,7 +523,7 @@ Overall:   91.65%
       <span class="name" style="color:#57f287">Eason</span>
       <span class="time">17:05</span>
     </div>
-    <div class="msg-content"><p>Can&#x27;t you specify the ID and generate the corresponding signature? Use TS to generate it. Refer to the approach in <a href="https://github.com/EasonC13/wip-blackjack-app." target="_blank">https://github.com/EasonC13/wip-blackjack-app.</a></p></div>
+    <div class="msg-content"><p>Can&#x27;t you specify the ID and generate the corresponding signature? Use TS to generate it. Refer to the approach we had in [directory omitted].</p></div>
   </div>
 </div>
 <div class="msg bot">
