@@ -39,6 +39,12 @@ The five skills work together for a complete Sui development workflow:
 
 <img src="/images/slide-workflow.png" alt="SuiMate Workflow" style="max-width: 100%; margin: 1.5rem auto; display: block; border-radius: 12px;" />
 
+1. **sui-decompile**: Study how existing contracts work by fetching on-chain source code
+2. **sui-move**: Write your own contracts using the Move language reference and patterns
+3. **sui-coverage**: Analyze test coverage, write missing tests, and audit for security issues
+4. **sui-agent-wallet**: Deploy contracts and interact with DApps using the agent's own wallet
+5. **mcp-server**: Expose all tools to Claude Code via MCP for seamless integration
+
 ## Example: Build a DeFi Protocol
 
 1. "Show me how DeepBook's order matching works" (sui-decompile fetches the source)
