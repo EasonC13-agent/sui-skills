@@ -1,12 +1,12 @@
 ---
 layout: home
 hero:
-  name: Sui Agent Skills
-  text: AI-Powered Sui Blockchain Development
-  tagline: A collection of OpenClaw skills that let your AI agent understand, write, test, and deploy Move smart contracts on Sui.
+  name: SuiMate
+  text: AI-Powered Sui Development Companion
+  tagline: End-to-end AI agent skills for Sui blockchain development. From studying existing contracts to deploying your own, all in one conversation.
   image:
     src: /images/hero.png
-    alt: Sui Agent Skills
+    alt: SuiMate
   actions:
     - theme: brand
       text: Get Started

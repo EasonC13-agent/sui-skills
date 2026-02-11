@@ -1,6 +1,8 @@
 # Getting Started
 
-Sui Agent Skills is a collection of [OpenClaw](https://github.com/openclaw/openclaw) skills for Sui blockchain development. These skills enable your AI agent to study, write, test, and deploy Move smart contracts.
+<img src="/images/slide-skills.png" alt="SuiMate Skills Overview" style="max-width: 100%; border-radius: 12px; margin-bottom: 1.5rem;" />
+
+SuiMate is a collection of [OpenClaw](https://github.com/openclaw/openclaw) skills for Sui blockchain development. These skills enable your AI agent to study, write, test, and deploy Move smart contracts.
 
 ## Prerequisites
 
@@ -35,7 +37,7 @@ cp -r sui-skills/<skill-name> <your-workspace>/skills/
 
 The five skills work together for a complete Sui development workflow:
 
-<img src="/images/workflow.png" alt="Sui Agent Skills Workflow" style="max-width: 700px; margin: 1.5rem auto; display: block; border-radius: 12px;" />
+<img src="/images/slide-workflow.png" alt="SuiMate Workflow" style="max-width: 100%; margin: 1.5rem auto; display: block; border-radius: 12px;" />
 
 ```
 sui-decompile --> sui-move --> sui-coverage --> sui-agent-wallet
