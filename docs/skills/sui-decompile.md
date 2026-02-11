@@ -1,8 +1,8 @@
 # sui-decompile
 
-<img src="/images/skill-decompile.png" alt="sui-decompile" style="max-width: 200px; border-radius: 12px; margin-bottom: 1rem;" />
+<img src="/images/slide-mad.png" alt="Built on MAD / SuiGPT" style="max-width: 100%; border-radius: 12px; margin-bottom: 1.5rem;" />
 
-Fetch on-chain Sui Move contract source code and let your agent explain how smart contracts work.
+Fetch on-chain Sui Move contract source code and let your agent explain how smart contracts work. Built on the domain expertise of [MAD (Move AI Decompiler)](https://suigpt.tools), published at ACM The Web Conference 2025.
 
 ## Overview
 

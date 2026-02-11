@@ -1,6 +1,6 @@
 # sui-agent-wallet
 
-<img src="/images/skill-wallet.png" alt="sui-agent-wallet" style="max-width: 200px; border-radius: 12px; margin-bottom: 1rem;" />
+<img src="/images/slide-agent-wallet.png" alt="sui-agent-wallet architecture" style="max-width: 100%; border-radius: 12px; margin-bottom: 1.5rem;" />
 
 Give your AI agent its own Sui wallet to interact with DApps and sign transactions.
 

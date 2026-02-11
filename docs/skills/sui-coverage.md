@@ -1,6 +1,6 @@
 # sui-coverage
 
-<img src="/images/skill-coverage.png" alt="sui-coverage" style="max-width: 200px; border-radius: 12px; margin-bottom: 1rem;" />
+<img src="/images/slide-coverage.png" alt="sui-coverage analysis" style="max-width: 100%; border-radius: 12px; margin-bottom: 1.5rem;" />
 
 Analyze Sui Move test coverage, identify untested code, and perform security audits.
 
