@@ -35,6 +35,8 @@ cp -r sui-skills/<skill-name> <your-workspace>/skills/
 
 The five skills work together for a complete Sui development workflow:
 
+<img src="/images/workflow.png" alt="Sui Agent Skills Workflow" style="max-width: 700px; margin: 1.5rem auto; display: block; border-radius: 12px;" />
+
 ```
 sui-decompile --> sui-move --> sui-coverage --> sui-agent-wallet
     Study          Write       Test & Audit      Build DApps

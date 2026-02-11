@@ -1,5 +1,7 @@
 # sui-decompile
 
+<img src="/images/skill-decompile.png" alt="sui-decompile" style="max-width: 200px; border-radius: 12px; margin-bottom: 1rem;" />
+
 Fetch on-chain Sui Move contract source code and let your agent explain how smart contracts work.
 
 ## Overview

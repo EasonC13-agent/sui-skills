@@ -1,5 +1,7 @@
 # sui-move
 
+<img src="/images/skill-move.png" alt="sui-move" style="max-width: 200px; border-radius: 12px; margin-bottom: 1rem;" />
+
 Sui blockchain and Move smart contract development skill.
 
 ## Overview
