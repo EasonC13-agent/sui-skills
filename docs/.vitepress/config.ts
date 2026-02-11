@@ -9,13 +9,15 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Getting Started', link: '/getting-started' },
       { text: 'Skills', link: '/skills/sui-move' },
+      { text: 'Demo', link: '/demo-conversation' },
       { text: 'GitHub', link: 'https://github.com/EasonC13-agent/sui-skills' }
     ],
     sidebar: [
       {
         text: 'Introduction',
         items: [
-          { text: 'Getting Started', link: '/getting-started' }
+          { text: 'Getting Started', link: '/getting-started' },
+          { text: 'Demo Conversation', link: '/demo-conversation' }
         ]
       },
       {
