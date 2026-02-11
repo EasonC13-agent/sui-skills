@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Sui Agent Skills',
   description: 'OpenClaw skills for Sui blockchain development',
-  base: '/sui-skills/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
